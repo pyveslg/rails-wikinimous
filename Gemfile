@@ -51,6 +51,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'faker'
   gem 'kramdown'
+  gem 'ace-rails-ap'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
