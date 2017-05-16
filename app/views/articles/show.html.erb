@@ -13,7 +13,7 @@
           </small>
         </h1>
         <p><img src="http://unsplash.it/800/300" alt=""></p>
-        <p><%= @article.content %></p>
+        <p><%= Kramdown::Document.new(@article.content).to_html.html_safe %></p>
       </div>
     </div>
   </div>
